@@ -1,0 +1,83 @@
+# Ignore all .user files (user-specific settings)
+*.user
+
+# Ignore all .suo and .sln.docstates files (solution user options)
+*.suo
+*.sln.docstate
+
+# Ignore all .db files (sqlite databases)
+*.db
+
+# Ignore all build output directories and files
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bin/
+obj/
+
+# Ignore NuGet package files
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Ignore Visual Studio temporary files and folders
+.vs/
+[Tt]emp/
+[Tt]emp[0-9]*/
+[Tt]emp[0-9A-Z]*/
+[Tt]emp[0-9a-z]*/
+[Tt]emp[0-9]*/
+
+# Ignore Visual Studio backup and auto-recover files
+*.user
+*.suo
+*.cache
+*.swp
+*.bak
+*.orig
+*.rej
+*.o
+*.lo
+*.a
+*.lib
+*.la
+*.al
+*.so
+*.exe
+*.dll
+*.obj
+*.res
+*.exe.manifest
+*.ilk
+*.pdb
+*.exp
+*.ilk
+*.iobj
+*.pch
+*.ipch
+*.h
+*.cpp
+*.c
+*.cs
+*.vb
+*.js
+*.py
+*.sh
+*.bat
+*.cmd
+*.ps1
+*.log
+*.sln
+*.userprefs
+
+# Ignore IIS express logs
+*.log
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Entity Framework files
+*.edmx

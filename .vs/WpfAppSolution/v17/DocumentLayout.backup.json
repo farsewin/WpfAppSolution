@@ -1,12 +1,220 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\.net\\WpfAppSolution\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|d:\\.net\\wpfappsolution\\wpfapp.ui\\views\\mainview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|solutionrelative:wpfapp.ui\\views\\mainview.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|d:\\.net\\wpfappsolution\\wpfapp.core\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|solutionrelative:wpfapp.core\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A24354-97DF-45ED-8647-FECCD7FDBB5D}|WpfApp.Data\\WpfApp.Data.csproj|d:\\.net\\wpfappsolution\\wpfapp.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A24354-97DF-45ED-8647-FECCD7FDBB5D}|WpfApp.Data\\WpfApp.Data.csproj|solutionrelative:wpfapp.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18A24354-97DF-45ED-8647-FECCD7FDBB5D}|WpfApp.Data\\WpfApp.Data.csproj|d:\\.net\\wpfappsolution\\wpfapp.data\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18A24354-97DF-45ED-8647-FECCD7FDBB5D}|WpfApp.Data\\WpfApp.Data.csproj|solutionrelative:wpfapp.data\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|d:\\.net\\wpfappsolution\\wpfapp.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|solutionrelative:wpfapp.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|d:\\.net\\wpfappsolution\\wpfapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|solutionrelative:wpfapp.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|d:\\.net\\wpfappsolution\\wpfapp.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|solutionrelative:wpfapp.core\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|d:\\.net\\wpfappsolution\\wpfapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|solutionrelative:wpfapp.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|d:\\.net\\wpfappsolution\\wpfapp.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|solutionrelative:wpfapp.core\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|d:\\.net\\wpfappsolution\\wpfapp.core\\wpfapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C309F2BA-E541-48AB-8DA1-20FC10047999}|WpfApp.Core\\WpfApp.Core.csproj|solutionrelative:wpfapp.core\\wpfapp.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|d:\\.net\\wpfappsolution\\wpfapp.ui\\wpfapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57E039DB-BECC-4B8B-BFB0-55B7F34F8C0C}|WpfApp.UI\\WpfApp.UI.csproj|solutionrelative:wpfapp.ui\\wpfapp.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainView.xaml",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\Views\\MainView.xaml",
+              "RelativeDocumentMoniker": "WpfApp.UI\\Views\\MainView.xaml",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\Views\\MainView.xaml",
+              "RelativeToolTip": "WpfApp.UI\\Views\\MainView.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T19:48:19.76Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "WpfApp.Core\\Services\\IProductService.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\Services\\IProductService.cs",
+              "RelativeToolTip": "WpfApp.Core\\Services\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T21:00:32.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp.UI\\App.xaml",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\App.xaml",
+              "RelativeToolTip": "WpfApp.UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T20:54:27.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WpfApp.Core\\Models\\Product.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\Models\\Product.cs",
+              "RelativeToolTip": "WpfApp.Core\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:52:44.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\ViewModels\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp.Core\\ViewModels\\MainViewModel.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\ViewModels\\MainViewModel.cs",
+              "RelativeToolTip": "WpfApp.Core\\ViewModels\\MainViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:48:24.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp.UI\\MainWindow.xaml",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T20:46:21.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Data\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "WpfApp.Data\\Services\\ProductService.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Data\\Services\\ProductService.cs",
+              "RelativeToolTip": "WpfApp.Data\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:16:12.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WpfApp.Data\\AppDbContext.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Data\\AppDbContext.cs",
+              "RelativeToolTip": "WpfApp.Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T20:16:11.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAjwAkBAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-04-12T17:16:36.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WpfApp.UI.csproj",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\WpfApp.UI.csproj",
+              "RelativeDocumentMoniker": "WpfApp.UI\\WpfApp.UI.csproj",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\WpfApp.UI.csproj",
+              "RelativeToolTip": "WpfApp.UI\\WpfApp.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T17:16:03.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WpfApp.Core.csproj",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\WpfApp.Core.csproj",
+              "RelativeDocumentMoniker": "WpfApp.Core\\WpfApp.Core.csproj",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.Core\\WpfApp.Core.csproj",
+              "RelativeToolTip": "WpfApp.Core\\WpfApp.Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-12T17:14:49.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp.UI\\App.xaml.cs",
+              "ToolTip": "D:\\.net\\WpfAppSolution\\WpfApp.UI\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp.UI\\App.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADgvxoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T16:54:23.423Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

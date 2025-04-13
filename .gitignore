@@ -1,36 +1,52 @@
-# Ignore Visual Studio temporary files, build results, and user-specific configurations
-[DdD]ebug/
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
 [Rr]elease/
 x64/
 x86/
 temp/
-bin/
-obj/
+
+# Ignore user-specific & IDE files
 *.user
 *.suo
 *.userprefs
 *.sln.docstates
 .vs/
+.vscode/
 
 # Ignore database files
 *.db
+*.db-shm
+*.db-wal
 
 # Ignore NuGet packages
 packages/
 *.nupkg
 *.snupkg
+project.lock.json
+project.fragment.lock.json
 
-# Ignore build output and temporary files
+# Ignore EF Core Migrations snapshot files (optional)
+**/Migrations/*Designer.cs
+**/Migrations/*Snapshot.cs
+
+# Ignore temporary and backup files
 *.cache
 *.log
 *.tmp
-
-# Ignore editor backup and temporary files
 *.bak
-*.tmp
 
-# Ignore Visual Studio Code files
-.vscode/
+# Rider (JetBrains)
+.idea/
+*.sln.iml
 
-# Ignore Entity Framework files
-*.edmx
+# Windows thumbnail and other system files
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac system files
+.DS_Store
+.vs/WpfAppSolution/CopilotIndices/17.13.444.19527/SemanticSymbols.db
+.vs/WpfAppSolution/CopilotIndices/17.13.444.19527/CodeChunks.db

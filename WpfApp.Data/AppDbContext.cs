@@ -7,7 +7,6 @@ public class AppDbContext : DbContext
 {
     public DbSet<Product> Products { get; set; }
 
-    // Add a constructor that accepts DbContextOptions<AppDbContext>
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
     {
     }

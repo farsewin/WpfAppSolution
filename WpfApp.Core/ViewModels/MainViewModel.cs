@@ -1,49 +1,41 @@
-using System.Collections.ObjectModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using System.Collections.ObjectModel;
+using System.Windows;
 using WpfApp.Core.Models;
 using WpfApp.Core.Services;
 
-namespace WpfApp.Core.ViewModels;
-
-public class MainViewModel : BaseViewModel
+namespace WpfApp.Core.ViewModels
 {
-    private readonly IProductService _productService;
-    private Product _selectedProduct = new(); // Initialize to avoid null
-
-    public MainViewModel() : this(new MockProductService()) // Corrected constructor chaining syntax
+    public class MainViewModel : BaseViewModel
     {
-    }
+        private readonly IProductService _productService;
+        private readonly INavigationService _navigationService;
 
-    public ObservableCollection<Product> Products { get; private set; }
+        public ObservableCollection<Product> Products { get; private set; } = new ObservableCollection<Product>();
 
-    public Product SelectedProduct
-    {
-        get => _selectedProduct;
-        set => SetProperty(ref _selectedProduct, value);
-    }
+        private RelayCommand _addProductCommand = null!; // Initialize with null-forgiving operator to satisfy non-nullable requirement.  
+        public RelayCommand AddProductCommand => _addProductCommand ??= new RelayCommand(AddProduct);
 
-    public MainViewModel(IProductService productService)
-    {
-        _productService = productService ?? throw new ArgumentNullException(nameof(productService));
-        Products = new ObservableCollection<Product>(); // Corrected initialization
-        LoadProducts();
-    }
+        public MainViewModel(IProductService productService, INavigationService navigationService)
+        {
+            _productService = productService;
+            _navigationService = navigationService;
+            LoadProducts();
+        }
 
-    private void LoadProducts()
-    {
-        Products = new ObservableCollection<Product>(_productService.GetAllProducts()); // Corrected initialization
-    }
+        private void LoadProducts()
+        {
+            Products = new ObservableCollection<Product>(_productService.GetAllProducts());
+        }
 
-    private RelayCommand _addProductCommand = null!;
-    public RelayCommand AddProductCommand => _addProductCommand ??= new RelayCommand(AddProduct);
-
-    private void AddProduct()
-    {
-        var newProduct = new Product { Name = "New Product", Price = 0, StockCount = 0 };
-        _productService.AddProduct(newProduct);
-        LoadProducts();
+        private void AddProduct()
+        {
+            _navigationService.NavigateTo("SettingsView");
+        }
     }
 }
+
 public class MockProductService : IProductService
 {
     public IEnumerable<Product> GetAllProducts() => new List<Product>();
@@ -51,4 +43,24 @@ public class MockProductService : IProductService
     public void AddProduct(Product product) { }
     public void UpdateProduct(Product product) { }
     public void DeleteProduct(int productId) { }
+}
+
+public class NavigationService : INavigationService
+{
+    private Window mainWindow;
+
+    public NavigationService(Window mainWindow)
+    {
+        this.mainWindow = mainWindow;
+    }
+
+    public void GoBack()
+    {
+        throw new NotImplementedException();
+    }
+
+    public void NavigateTo(string viewName)
+    {
+        // Implement navigation logic here
+    }
 }
